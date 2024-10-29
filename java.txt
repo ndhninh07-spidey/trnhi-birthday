@@ -1,17 +1,17 @@
-// Hàm tạo bóng bay khi nhấn nút
+// Function to create balloons when a button is pressed
 function showSurprise() {
     const container = document.getElementById('balloons-container');
     for (let i = 0; i < 30; i++) {
         const balloon = document.createElement('div');
         balloon.className = 'balloon';
         balloon.style.backgroundColor = getRandomColor();
-        balloon.style.left = ${Math.random() * 100}vw;
-        balloon.style.animationDuration = ${Math.random() * 2 + 3}s;
+        balloon.style.left = `${Math.random() * 100}vw`;
+        balloon.style.animationDuration = `${Math.random() * 2 + 3}s`;
         container.appendChild(balloon);
     }
 }
 
-// Tạo màu ngẫu nhiên cho bóng bay
+// Function to generate a random color for balloons
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
