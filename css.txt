@@ -1,4 +1,4 @@
-/* Đặt ảnh nền và thiết kế trang */
+/* Set background image and page design */
 body {
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@ button:hover {
     background-color: #ff3e3e;
 }
 
-/* Bóng bay */
+/* Balloons animation */
 .balloon {
     position: absolute;
     width: 60px;
@@ -54,4 +54,3 @@ button:hover {
         transform: translateY(-100vh);
     }
 }
-source.unsplash.com
